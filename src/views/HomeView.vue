@@ -1,41 +1,79 @@
 <template>
   <main>
     <SectionHome />
+    <BannerImage :image="bgUrl1">
+      <div
+        class="text-dark text-lg font-bold font-amatic order-first md:order-last"
+      >
+        <h2
+          class="text-4xl text-light text-center font-normal font-amatic tracking-wide drop-shadow-lg"
+        >
+          WELCOME TO PARADISE!
+        </h2>
+      </div>
+    </BannerImage>
     <SectionAbout />
-    <ParallaxMulti :sliders="sliderImg" size="52vh" />
-    <SectionPhotos />
+    <ParallaxMulti :sliders="sliderImg" size="72vh" />
+    <SectionArtists />
     <SliderImage
-      size="50vh"
+      size="60vh"
       :sliders="sliderImg"
       background-color="#0000001a"
     />
-    <SectionVideos />
-    <ParallaxStatic :image="imageUrl2" />
+    <BannerImage :image="bgUrl2">
+      <div
+        class="text-dark text-lg font-bold font-amatic order-first md:order-last"
+      >
+        <h2
+          class="text-4xl text-light text-center font-normal font-amatic tracking-wide drop-shadow-lg"
+        >
+          TENHA EXPERIÊNCIAS INCRÍVEIS!
+        </h2>
+      </div>
+    </BannerImage>
+
+    <SectionSport />
+    <BannerImage :image="bgUrl3">
+      <div
+        class="text-dark text-lg font-bold font-amatic order-first md:order-last"
+      >
+        <h2
+          class="text-4xl text-light text-center font-normal font-amatic tracking-wide drop-shadow-lg"
+        >
+          VAMOS EMBARCAR NESSA VIAGEM JUNTOS!?
+        </h2>
+      </div>
+    </BannerImage>
     <SectionContact />
   </main>
 </template>
 
 <script setup>
 import SectionHome from '@/components/Sitesys/Global/Sections/SectionHome.vue'
+import BannerImage from '@/components/Sitesys/Global/Banner/BannerImage.vue'
 import SectionAbout from '@/components/Sitesys/Global/Sections/SectionAbout.vue'
-import SectionPhotos from '@/components/Sitesys/Global/Sections/SectionPhotos.vue'
-import SectionVideos from '@/components/Sitesys/Global/Sections/SectionVideos.vue'
+import SectionArtists from '@/components/Sitesys/Global/Sections/SectionArtists.vue'
+import SectionSport from '@/components/Sitesys/Global/Sections/SectionSport.vue'
 import SectionContact from '@/components/Sitesys/Global/Sections/SectionContact.vue'
 import ParallaxStatic from '@/components/Sitesys/Global/Parallax/ParallaxStatic.vue'
 import ParallaxMulti from '@/components/Sitesys/Global/Parallax/ParallaxMulti.vue'
 import SliderImage from '@/components/Sitesys/Global/Slider/SliderImage.vue'
 import { useHead } from '@vueuse/head'
 
-import imgUrl1 from '@/assets/images/sitesys/sliders/image-01.jpg'
-import imgUrl2 from '@/assets/images/sitesys/sliders/image-02.jpg'
-import imgUrl3 from '@/assets/images/sitesys/sliders/image-03.jpg'
-import imgUrl4 from '@/assets/images/sitesys/sliders/image-04.jpg'
+import bgUrl1 from '@/assets/images/sitesys/bg/bg-05.jpg'
+import bgUrl2 from '@/assets/images/sitesys/bg/bg-novidades-02.jpg'
+import bgUrl3 from '@/assets/images/sitesys/bg/bg-04.jpg'
+
+import imgUrl1 from '@/assets/images/sitesys/gallery/image-01.jpg'
+import imgUrl2 from '@/assets/images/sitesys/gallery/image-07.jpg'
+import imgUrl3 from '@/assets/images/sitesys/gallery/image-08.jpg'
+import imgUrl4 from '@/assets/images/sitesys/gallery/image-09.jpg'
 
 import imageUrl1 from '@/assets/images/sitesys/parallax/parallax-01.jpg'
 import imageUrl2 from '@/assets/images/sitesys/parallax/parallax-02.jpg'
 
 useHead({
-  title: 'SiteSyS WPA - My Home Page',
+  title: 'Paradise Entretenimento',
   meta: [
     {
       name: 'description',
@@ -45,7 +83,7 @@ useHead({
     /* Social */
     {
       property: 'og:title',
-      content: 'SiteSyS WPA - My Home Page',
+      content: 'Paradise Entretenimento',
     },
     {
       property: 'og:description',
@@ -69,7 +107,7 @@ const sliderImg = [
   },
   {
     id: '2',
-    title: 'Title 2',
+    title: '',
     description: '',
     actionLabel: '',
     actionUrl: '/',
@@ -77,17 +115,17 @@ const sliderImg = [
   },
   {
     id: '3',
-    title: 'Title 3',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    title: '',
+    description: '',
     actionLabel: '',
     actionUrl: '/',
     image: imgUrl3,
   },
   {
     id: '4',
-    title: 'Title 4',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    actionLabel: 'Get Started',
+    title: '',
+    description: '',
+    actionLabel: '',
     actionUrl: '/',
     image: imgUrl4,
   },

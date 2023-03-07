@@ -8,7 +8,7 @@
         <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
           <div class="mb-10 w-full">
             <a href="javascript:void(0)" class="inline-block max-w-[140px]">
-              <img :src="imgUrl" alt="logo" class="max-w-full" />
+              <img :src="imgUrl" alt="logo" width="90" class="max-w-full" />
             </a>
             <p class="text-gray-400 font-semibold text-sm mb-2">
               {{ $t('footer.description') }}
@@ -198,7 +198,7 @@
               {{ $t('footer.address') }}
             </h4>
             <ul>
-              <li>
+              <li v-show="company.address">
                 <p
                   class="text-gray-400 font-semibold hover:text-primary inline-block leading-loose"
                 >
@@ -234,12 +234,12 @@
 </template>
 
 <script setup>
-import imgUrl from '@/assets/images/sitesys/logo/logo-header-light.png'
+import imgUrl from '@/assets/images/sitesys/logo/novologotipoparadise.png'
 
 const company = defineProps({
   company: {
     type: String,
-    default: 'SiteSys',
+    default: 'Paradise Entretenimento',
   },
   logo: {
     type: String,
@@ -247,27 +247,27 @@ const company = defineProps({
   },
   description: {
     type: String,
-    default: 'Brief description of the company.',
+    default: 'Paradise Entretenimento',
   },
   email1: {
     type: String,
-    default: 'contactsitesys@sitesys.com',
+    default: 'contato@paradiseentretenimento.com.br',
   },
   email2: {
     type: String,
-    default: 'supportsitesys@sitesys.com',
+    default: 'contato@paradiseentretenimento.com.br',
   },
   address: {
     type: String,
-    default: 'Company Address, 0000 - Company District',
+    default: '',
   },
   phone1: {
     type: String,
-    default: '99 99999-9999',
+    default: '+55 (51) 99101 2803',
   },
   phone2: {
     type: String,
-    default: '88 88888-8888',
+    default: '+55 (51) 99101 2803',
   },
   facebook: {
     type: String,

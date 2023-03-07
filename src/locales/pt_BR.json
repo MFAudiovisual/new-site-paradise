@@ -3,8 +3,8 @@
     "navbar": {
         "home": "Início",
         "about": "Sobre",
-        "photos": "Fotos",
-        "videos": "Vídeos",
+        "artists": "Artistas",
+        "sport": "Esporte",
         "contact": "Contato"
     },
     "about": {
@@ -21,12 +21,12 @@
         "placeholderName": "Seu Name",
         "email": "E-mail:",
         "placeholderEmail": "Seu E-mail",
-        "message": "Message:",
+        "message": "Mensagem:",
         "placeholderMessage": "Sua Mensagem",
         "send": "Enviar Mensagem"
     },
     "footer": {
-        "description": "Português Brief description of the company.",
+        "description": "Paradise Entretenimento",
         "contact": "Contato",
         "address": "Endereço",
         "copyright": "Todos os direitos reservados a "

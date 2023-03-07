@@ -3,8 +3,8 @@
     <!-- Sitesys Navbar -->
     <nav class="fixed top-0 z-50 w-full">
       <div
-        :class="[y >= 120 ? 'shadow' : 'bg-opacity-0 pt-6']"
-        class="bg-brand px-4 pt-3 pb-2 transition-all duration-300"
+        :class="[y >= 120 ? 'bg-opacity-60' : 'bg-opacity-0 pt-6']"
+        class="bg-dark px-4 pt-3 pb-2 transition-all duration-300"
       >
         <div class="container mx-auto">
           <!-- Navbar Desktop Content -->
@@ -22,6 +22,7 @@
                   :active="item.current"
                   @click="handleGoToSection(item)"
                   preserve-scroll
+                  class="font-montserrat text-[16px] tracking-wider drop-shadow-md"
                 >
                   {{ item.name }}
                 </NavbarLink>
@@ -69,17 +70,17 @@
               </div>
               <!-- Dropdown Button -->
               <LanguageSwither class="ml-4" />
-              <DropdownConfig class="ml-1" />
+              <!-- <DropdownConfig class="ml-1" /> -->
             </div>
           </div>
         </div>
       </div>
       <!-- Navbar Mobile Content -->
       <div
-        class="sm:hidden z-10 bg-brand space-y-2 p-4 transition-all duration-300"
+        class="sm:hidden z-10 bg-dark space-y-2 p-4 transition-all duration-300"
         :class="[
           { hidden: showMobileMenu },
-          y >= 120 ? 'shadow' : 'bg-opacity-0',
+          y >= 120 ? 'bg-opacity-60' : 'bg-opacity-0',
         ]"
       >
         <!-- Desktop Mobile Links -->
@@ -96,6 +97,7 @@
               ? ''
               : 'bg-opacity-0 hover:bg-opacity-0 focus:bg-opacity-0',
           ]"
+          class="font-montserrat text-[17px] tracking-wider drop-shadow-md"
         >
           {{ item.name }}
         </SidebarLink>
@@ -153,13 +155,13 @@ const navigation = ref([
     current: false,
   },
   {
-    name: t('navbar.photos'),
-    href: { path: '/', hash: '#photos' },
+    name: t('navbar.artists'),
+    href: { path: '/', hash: '#artists' },
     current: false,
   },
   {
-    name: t('navbar.videos'),
-    href: { path: '/', hash: '#videos' },
+    name: t('navbar.sport'),
+    href: { path: '/', hash: '#sport' },
     current: false,
   },
   {

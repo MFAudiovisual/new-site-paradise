@@ -1,7 +1,7 @@
 <template>
   <Swiper
     :autoplay="{
-      delay: 6000,
+      delay: 3200,
       disableOnInteraction: false,
     }"
     :effect="'fade'"
@@ -20,7 +20,7 @@
       v-for="item in sliders"
       :key="item.id"
       :style="{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.01)), url('${item.image}')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.1)), url('${item.image}')`,
       }"
       class="relative overflow-hidden bg-no-repeat bg-cover bg-center"
     >
@@ -33,7 +33,7 @@
         <div class="flex justify-center items-center h-full">
           <div class="text-center text-white px-6 md:px-12">
             <h2
-              class="text-brand text-6xl md:text-7xl font-bold drop-shadow-md tracking-tight mt-10 mb-4"
+              class="font-montserrat font-normal text-green-500/70 uppercase text-7xl md:text-8xl drop-shadow-md mt-10 mb-4 tracking-widest"
             >
               {{ item.title }}
             </h2>
