@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        base: ['Lato', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        amatic: ['Amatic SC', 'cursive'],
       },
       fontSize: {
         sm: ['clamp(1.00rem, calc(0.92rem + 0.39vw), 1.20rem)', '1.4'],
@@ -20,6 +21,7 @@ module.exports = {
         '6xl': ['clamp(2.57rem, calc(0.78rem + 8.95vw), 7.15rem)', '1'],
         '7xl': ['clamp(3.57rem, calc(0.78rem + 9.95vw), 8.15rem)', '1'],
         '8xl': ['clamp(3.57rem, calc(1.2rem + 9.95vw), 12rem)', '1'],
+        '9xl': ['clamp(4.38rem, calc(1.3rem + 9.95vw), 12rem)', '1'],
       },
       colors: {
         /* DarkMode */

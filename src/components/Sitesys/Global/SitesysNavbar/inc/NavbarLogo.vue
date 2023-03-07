@@ -16,7 +16,7 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
-import imgUrl from '@/assets/images/sitesys/logo/logo-header-light.png'
+import imgUrl from '@/assets/images/sitesys/logo/novologotipoparadise.png'
 
 const navbarLogo = imgUrl
 

@@ -3,8 +3,8 @@
     "navbar": {
         "home": "Home",
         "about": "About",
-        "photos": "Photos",
-        "videos": "Videos",
+        "artists": "Artists",
+        "sport": "Sport",
         "contact": "Contact"
     },
     "about": {
@@ -26,7 +26,7 @@
         "send": "Send Message"
     },
     "footer": {
-        "description": "English Brief description of the company.",
+        "description": "Paradise Entreteniment",
         "contact": "Contact",
         "address": "Address",
         "copyright": "All rights reserved by "
