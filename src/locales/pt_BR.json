@@ -1,0 +1,34 @@
+{
+    "hello": "Ola!!",
+    "navbar": {
+        "home": "Início",
+        "about": "Sobre",
+        "photos": "Fotos",
+        "videos": "Vídeos",
+        "contact": "Contato"
+    },
+    "about": {
+        "title": "Sobre",
+        "description": "Português Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quisquam optio! Sequi, amet veritatis culpa, hic explicabo eum voluptatem at officiis doloribus atque alias dignissimos ipsa enim suscipit impedit tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque fugiat earum pariatur facere dolorum aut ex? Blanditiis in autem deleniti repellendus eveniet, dolor libero iusto non, dicta voluptates earum natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "more": "Saiba mais..."
+    },
+    "contact": {
+        "title": "Contato",
+        "description": "Português Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quisquam optio! Sequi, amet veritatis culpa, hic explicabo eum voluptatem at officiis doloribus atque alias dignissimos ipsa enim suscipit impedit tempore."
+    },
+    "form": {
+        "name": "Nome:",
+        "placeholderName": "Seu Name",
+        "email": "E-mail:",
+        "placeholderEmail": "Seu E-mail",
+        "message": "Message:",
+        "placeholderMessage": "Sua Mensagem",
+        "send": "Enviar Mensagem"
+    },
+    "footer": {
+        "description": "Português Brief description of the company.",
+        "contact": "Contato",
+        "address": "Endereço",
+        "copyright": "Todos os direitos reservados a "
+    }
+}

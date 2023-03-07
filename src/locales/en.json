@@ -1,0 +1,34 @@
+{
+    "hello": "Hello!!",
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "photos": "Photos",
+        "videos": "Videos",
+        "contact": "Contact"
+    },
+    "about": {
+        "title": "About",
+        "description": "English Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quisquam optio! Sequi, amet veritatis culpa, hic explicabo eum voluptatem at officiis doloribus atque alias dignissimos ipsa enim suscipit impedit tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque fugiat earum pariatur facere dolorum aut ex? Blanditiis in autem deleniti repellendus eveniet, dolor libero iusto non, dicta voluptates earum natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "more": "Learn more..."
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "English Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quisquam optio! Sequi, amet veritatis culpa, hic explicabo eum voluptatem at officiis doloribus atque alias dignissimos ipsa enim suscipit impedit tempore."
+    },
+    "form": {
+        "name": "Name:",
+        "placeholderName": "Your Name",
+        "email": "E-mail:",
+        "placeholderEmail": "Your E-mail",
+        "message": "Message:",
+        "placeholderMessage": "Your Message",
+        "send": "Send Message"
+    },
+    "footer": {
+        "description": "English Brief description of the company.",
+        "contact": "Contact",
+        "address": "Address",
+        "copyright": "All rights reserved by "
+    }
+}
