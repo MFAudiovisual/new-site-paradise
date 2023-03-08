@@ -7,6 +7,12 @@
         "sport": "Sport",
         "contact": "Contact"
     },
+    "sliderHero": {
+        "title1": "Nature",
+        "title2": "Culture",
+        "title3": "Music",
+        "title4": "Sport"
+    },
     "about": {
         "title": "About",
         "description": "Everyone wants to have fun, but more than that, they want to make it an unforgettable experience. However, today's young people want to do this responsibly. In this context, Paradise Entretenimento seeks to hold sustainable events in paradisiacal places, in complete interaction with nature, using music and sport as parameters.",

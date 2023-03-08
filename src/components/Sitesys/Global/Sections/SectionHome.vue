@@ -12,10 +12,14 @@ import imgUrl2 from '@/assets/images/sitesys/sliders/hero-02.jpg'
 import imgUrl3 from '@/assets/images/sitesys/sliders/hero-03.jpg'
 import imgUrl4 from '@/assets/images/sitesys/sliders/hero-04.jpg'
 
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
 const sliderImg = [
   {
     id: '1',
-    title: 'Natureza',
+    title: t('sliderHero.title1'),
     description: '',
     actionLabel: '',
     actionUrl: '/',
@@ -23,7 +27,7 @@ const sliderImg = [
   },
   {
     id: '2',
-    title: 'Cultura',
+    title: t('sliderHero.title2'),
     description: '',
     actionLabel: '',
     actionUrl: '/',
@@ -31,7 +35,7 @@ const sliderImg = [
   },
   {
     id: '3',
-    title: 'Música',
+    title: t('sliderHero.title3'),
     description: '',
     actionLabel: '',
     actionUrl: '/',
@@ -39,7 +43,7 @@ const sliderImg = [
   },
   {
     id: '4',
-    title: 'Esporte',
+    title: t('sliderHero.title4'),
     description: '',
     actionLabel: '',
     actionUrl: '',
