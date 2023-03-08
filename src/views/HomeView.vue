@@ -8,12 +8,12 @@
         <h2
           class="text-4xl text-light text-center font-normal font-amatic tracking-wide drop-shadow-lg"
         >
-          WELCOME TO PARADISE!
+          {{ $t('banner.title1') }}
         </h2>
       </div>
     </BannerImage>
     <SectionAbout />
-    <ParallaxMulti :sliders="sliderImg" size="72vh" />
+    <ParallaxMulti :sliders="sliderImg" size="82vh" />
     <SectionArtists />
     <SliderImage
       size="60vh"
@@ -27,7 +27,7 @@
         <h2
           class="text-4xl text-light text-center font-normal font-amatic tracking-wide drop-shadow-lg"
         >
-          TENHA EXPERIÊNCIAS INCRÍVEIS!
+          {{ $t('banner.title2') }}
         </h2>
       </div>
     </BannerImage>
@@ -40,7 +40,7 @@
         <h2
           class="text-4xl text-light text-center font-normal font-amatic tracking-wide drop-shadow-lg"
         >
-          VAMOS EMBARCAR NESSA VIAGEM JUNTOS!?
+          {{ $t('banner.title3') }}
         </h2>
       </div>
     </BannerImage>

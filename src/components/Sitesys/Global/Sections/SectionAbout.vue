@@ -1,58 +1,44 @@
 <template>
   <section id="about" class="about">
     <div
-      class="bg-[url('/src/assets/images/sitesys/bg/bg-04.jpg')] bg-no-repeat bg-cover"
+      class="bg-[url('/src/assets/images/sitesys/bg/bg-14.jpg')] bg-no-repeat bg-cover"
     >
-      <div class="backdrop-opacity-50 bg-light/50">
+      <div class="backdrop-opacity-50 bg-light/80">
         <div class="container py-24 mx-auto px-4">
           <div class="anim1-scroll">
             <div class="container grid grid-cols-1 md:grid-cols-2 gap-4">
               <h2
-                class="trigger1-scroll text-4xl text-green-500/60 font-normal font-montserrat tracking-wide drop-shadow-text-sm"
+                class="trigger1-scroll text-5xl text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
               >
-                SOBRE
+                {{ $t('about.title') }}
               </h2>
-              <div class="text-dark text-lg font-bold font-amatic">
+              <div class="text-dark text-lg md:text-xl font-bold font-amatic">
                 <p class="mb-16">
-                  Todo mundo quer se divertir, mas mais do que isso quer fazer
-                  disso uma experiência inesquecível. Entretanto, o jovem de
-                  hoje quer fazer isso com responsabilidade. Nesse contexto, a
-                  Paradise Entretenimento busca realizar eventos sustentáveis em
-                  lugares paradisíacos, em completa interação com a natureza,
-                  utilizando como parâmetros a música e o esporte.
+                  {{ $t('about.description') }}
                 </p>
                 <h2
                   class="text-2xl font-semibold font-amatic tracking-wide drop-shadow-text-md"
                 >
-                  MISSÃO
+                  {{ $t('about.mission') }}
                 </h2>
                 <p class="mb-16">
-                  Proporcionar experiências de entretenimento através da música
-                  e do esporte, de maneira sustentável e em equilíbrio com a
-                  natureza.
+                  {{ $t('about.textMission') }}
                 </p>
                 <h2
                   class="text-2xl font-semibold font-amatic tracking-wide drop-shadow-text-md"
                 >
-                  VISÃO
+                  {{ $t('about.vision') }}
                 </h2>
                 <p class="mb-16">
-                  Ser referência como canal de entretenimento agregando conteúdo
-                  audiovisual sobre a Música Reggae, Esportes de Aventura e
-                  lugares paradisíacos.
+                  {{ $t('about.textVision') }}
                 </p>
                 <h2
                   class="text-2xl font-semibold font-amatic tracking-wide drop-shadow-text-md"
                 >
-                  VALORES
+                  {{ $t('about.values') }}
                 </h2>
-                <p class="mb-16">
-                  Cultura <br />
-                  Sustentabilidade <br />
-                  Aventura <br />
-                  Colaborativismo <br />
-                  União <br />
-                  Viagem
+                <p class="mb-16 inline-block">
+                  {{ $t('about.textValues') }}
                 </p>
               </div>
             </div>

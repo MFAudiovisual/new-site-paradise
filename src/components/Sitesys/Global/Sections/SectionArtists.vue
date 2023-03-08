@@ -6,22 +6,18 @@
       <div class="container py-24 mx-auto px-4">
         <div class="anim3-scroll">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="text-dark text-lg font-bold font-amatic">
+            <div class="text-dark text-lg md:text-xl font-bold font-amatic">
               <p class="mb-16">
-                A Paradise Entretenimento gerencia a carreira de artistas de
-                Reggae, pois entende que o ritmo criado na Jamaica sintetiza
-                suas intenções de gerar mensagens e ações de paz e consciência
-                através do entretenimento. Dentre nosso casting podemos destacar
-                os seguintes artistas:
+                {{ $t('artists.description') }}
               </p>
             </div>
             <div
               class="text-dark text-lg font-bold font-amatic order-first md:order-last"
             >
               <h2
-                class="trigger3-scroll text-4xl text-green-500/60 font-normal font-montserrat tracking-wide drop-shadow-text-sm"
+                class="trigger3-scroll text-5xl text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
               >
-                ARTISTAS
+                {{ $t('artists.title') }}
               </h2>
             </div>
           </div>
@@ -35,15 +31,12 @@
           <h2
             class="text-4xl text-green-500/60 font-normal font-amatic mb-4 tracking-wide drop-shadow-text-sm"
           >
-            GrooVI
+            {{ $t('artists.artist1') }}
           </h2>
 
           <p class="mb-16 text-lg font-bold font-amatic">
-            A GrooVI surgiu em Porto Alegre, inspirada nas “backing bands” das
-            Ilhas Virgens. A sigla “VI” representa o “New Roots”, música com
-            fundamentos espirituais africanos. A banda faz um resgate ancestral
-            à espiritualidade através do Reggae, com letras que buscam despertar
-            a consciência. <a href="#" class="text-blue-500">Saiba Mais...</a>
+            {{ $t('artists.artist1Description') }}
+            <a href="#" class="text-blue-500">{{ $t('artists.more') }}</a>
           </p>
         </div>
 
@@ -94,7 +87,7 @@
             :src="`https://www.youtube.com/embed/qlmwIVmsn3Y?loop=1&modestbranding=1`"
             frameborder="0"
             allowfullscreen
-            class="m-16 my-auto"
+            class="m-16 my-auto w-full"
           />
         </div>
       </div>
@@ -104,17 +97,12 @@
           <h2
             class="text-4xl text-green-500/60 font-normal font-amatic mb-4 tracking-wide drop-shadow-text-sm"
           >
-            Skafolia
+            {{ $t('artists.artist2') }}
           </h2>
 
           <p class="mb-16 text-lg font-bold font-amatic">
-            O Skafolia faz a fusão de marchinhas tradicionais de Carnaval com o
-            SKA, ritmo jamaicano criado na década de 60, que deu origem ao
-            Reggae. Surgido em Porto Alegre em 2011, é o primeiro bloco SKA do
-            Brasil e se caracteriza pela irreverência dos vocais, somado ao
-            balanço da cozinha e ao peso dos metais, formando uma mistura de
-            ritmos que só acontece no Skafolia.
-            <a href="#" class="text-blue-500">Saiba Mais...</a>
+            {{ $t('artists.artist2Description') }}
+            <a href="#" class="text-blue-500">{{ $t('artists.more') }}</a>
           </p>
         </div>
 
@@ -150,7 +138,7 @@
             :src="`https://www.youtube.com/embed/kCNuJj9hXrg?loop=1&modestbranding=1`"
             frameborder="0"
             allowfullscreen
-            class="m-16 my-auto"
+            class="m-16 my-auto w-full"
           />
         </div>
       </div>
