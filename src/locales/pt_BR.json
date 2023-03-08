@@ -9,7 +9,33 @@
     },
     "about": {
         "title": "Sobre",
-        "description": "Português Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quisquam optio! Sequi, amet veritatis culpa, hic explicabo eum voluptatem at officiis doloribus atque alias dignissimos ipsa enim suscipit impedit tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque fugiat earum pariatur facere dolorum aut ex? Blanditiis in autem deleniti repellendus eveniet, dolor libero iusto non, dicta voluptates earum natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "description": "Todo mundo quer se divertir, mas mais do que isso quer fazer disso uma experiência inesquecível. Entretanto, o jovem de hoje quer fazer isso com responsabilidade. Nesse contexto, a Paradise Entretenimento busca realizar eventos sustentáveis em lugares paradisíacos, em completa interação com a natureza, utilizando como parâmetros a música e o esporte.",
+        "mission": "Missão",
+        "textMission": "Proporcionar experiências de entretenimento através da música e do esporte, de maneira sustentável e em equilíbrio com a natureza.",
+        "vision": "Visão",
+        "textVision": "Ser referência como canal de entretenimento agregando conteúdo audiovisual sobre a Música Reggae, Esportes de Aventura e lugares paradisíacos.",
+        "values": "Valores",
+        "textValues": "Cultura, Sustentabilidade, Aventura, Colaborativismo, União e Viagem."
+    },
+    "banner": {
+        "title1": "Bem Vindo ao Paraíso!",
+        "title2": "Tenha Experiências Incríveis!",
+        "title3": "Vamos Embarcar nessa viagem Juntos!?"
+    },
+    "artists": {
+        "title": "Artistas",
+        "description": "A Paradise Entretenimento gerencia a carreira de artistas de Reggae, pois entende que o ritmo criado na Jamaica sintetiza suas intenções de gerar mensagens e ações de paz e consciência através do entretenimento. Dentre nosso casting podemos destacar os seguintes artistas:",
+        "artist1": "GrooVI",
+        "artist1Description": "A GrooVI surgiu em Porto Alegre, inspirada nas “backing bands” das Ilhas Virgens. A sigla “VI” representa o “New Roots”, música com fundamentos espirituais africanos. A banda faz um resgate ancestral à espiritualidade através do Reggae, com letras que buscam despertar a consciência.",
+        "artist2": "Skafolia",
+        "artist2Description": "O Skafolia faz a fusão de marchinhas tradicionais de Carnaval com o SKA, ritmo jamaicano criado na década de 60, que deu origem ao Reggae. Surgido em Porto Alegre em 2011, é o primeiro bloco SKA do Brasil e se caracteriza pela irreverência dos vocais, somado ao balanço da cozinha e ao peso dos metais, formando uma mistura de ritmos que só acontece no Skafolia.",
+        "more": "Saiba mais..."
+    },
+    "sport": {
+        "title": "Esporte",
+        "description": "A Paradise Entretenimento cultua, entre outros esportes de aventura, o slackline, um esporte de equilíbrio, que coloca as pessoas em contato com outras e consigo mesmas, destacando-se também pelo contato direto com a natureza. Conheça nossa parceira Free Slack:",
+        "artist1": "Free Slack",
+        "artist1Description": "A Paradise Entretenimento tem uma parceria com a Free Slack, uma organização voltada para a prática e divulgação do Slackline, um esporte que tem como base o equilíbrio físico e mental, condições fundamentais para uma vida saudável. Além de ser uma prática que agrega e desenvolve a consciência e valores de união, o slackline contribui para uma sociedade mais pacífica e integrada com o meio em que vivemos. A Free Slack realiza diversos eventos desenvolvendo oficinas, apresentações e atividades sociais, objetivando oportunizar a vivência e experiência através do esporte.",
         "more": "Saiba mais..."
     },
     "contact": {

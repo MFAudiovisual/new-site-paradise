@@ -3,26 +3,22 @@
     <div
       class="bg-[url('/src/assets/images/sitesys/bg/bg-esporte-ofinal.jpg')] bg-no-repeat bg-cover"
     >
-      <div class="backdrop-opacity-50 bg-light/20">
+      <div class="backdrop-opacity-50 bg-light/30">
         <div class="container py-24 mx-auto px-4">
           <div class="anim4-scroll">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div class="text-dark text-lg font-bold font-amatic">
+              <div class="text-dark text-lg md:text-xl font-bold font-amatic">
                 <p class="mb-16">
-                  A Paradise Entretenimento cultua, entre outros esportes de
-                  aventura, o slackline, um esporte de equilíbrio, que coloca as
-                  pessoas em contato com outras e consigo mesmas, destacando-se
-                  também pelo contato direto com a natureza. Conheça nossa
-                  parceira Free Slack:
+                  {{ $t('sport.description') }}
                 </p>
               </div>
               <div
                 class="text-dark text-lg font-bold font-amatic order-first md:order-last"
               >
                 <h2
-                  class="trigger4-scroll text-4xl text-green-500/60 font-normal font-montserrat tracking-wide drop-shadow-text-sm"
+                  class="trigger4-scroll text-5xl text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
                 >
-                  ESPORTE
+                  {{ $t('sport.title') }}
                 </h2>
               </div>
             </div>
@@ -37,20 +33,12 @@
           <h2
             class="text-4xl text-green-500/60 font-normal font-amatic mb-4 tracking-wide drop-shadow-text-sm"
           >
-            Free Slack
+            {{ $t('sport.artist1') }}
           </h2>
 
           <p class="mb-16 text-lg font-bold font-amatic">
-            A Paradise Entretenimento tem uma parceria com a Free Slack, uma
-            organização voltada para a prática e divulgação do Slackline, um
-            esporte que tem como base o equilíbrio físico e mental, condições
-            fundamentais para uma vida saudável. Além de ser uma prática que
-            agrega e desenvolve a consciência e valores de união, o slackline
-            contribui para uma sociedade mais pacífica e integrada com o meio em
-            que vivemos. A Free Slack realiza diversos eventos desenvolvendo
-            oficinas, apresentações e atividades sociais, objetivando
-            oportunizar a vivência e experiência através do esporte.
-            <a href="#" class="text-blue-500">Saiba Mais...</a>
+            {{ $t('sport.artist1Description') }}
+            <a href="#" class="text-blue-500">{{ $t('sport.more') }}</a>
           </p>
         </div>
 
@@ -86,7 +74,7 @@
             :src="`https://www.youtube.com/embed/IWUPkbu18H8?loop=1&modestbranding=1`"
             frameborder="0"
             allowfullscreen
-            class="m-16 my-auto"
+            class="m-16 my-auto w-full"
           />
         </div>
       </div>

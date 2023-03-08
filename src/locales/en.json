@@ -9,7 +9,33 @@
     },
     "about": {
         "title": "About",
-        "description": "English Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quisquam optio! Sequi, amet veritatis culpa, hic explicabo eum voluptatem at officiis doloribus atque alias dignissimos ipsa enim suscipit impedit tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque fugiat earum pariatur facere dolorum aut ex? Blanditiis in autem deleniti repellendus eveniet, dolor libero iusto non, dicta voluptates earum natus? Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "description": "Everyone wants to have fun, but more than that, they want to make it an unforgettable experience. However, today's young people want to do this responsibly. In this context, Paradise Entretenimento seeks to hold sustainable events in paradisiacal places, in complete interaction with nature, using music and sport as parameters.",
+        "mission": "Mission",
+        "textMission": "To provide entertainment experiences through music and sport, in a sustainable way and in balance with nature.",
+        "vision": "Vision",
+        "textVision": "To be a reference as an entertainment channel adding audiovisual content about Reggae Music, Adventure Sports and paradisiacal places.",
+        "values": "Values",
+        "textValues": "Culture, Sustainability, Adventure, Collaborative, Unity and Trip."
+    },
+    "banner": {
+        "title1": "Welcome to paradise!",
+        "title2": "Have Amazing Experiences!",
+        "title3": "Let's Embark on This Journey Together!?"
+    },
+    "artists": {
+        "title": "Artists",
+        "description": "Paradise Entretenimento manages the career of Reggae artists, as it understands that the rhythm created in Jamaica synthesizes its intentions to generate messages and actions of peace and conscience through entertainment. Among our casting we can highlight the following artists:",
+        "artist1": "GrooVI",
+        "artist1Description": "GrooVI emerged in Porto Alegre, inspired by the “backing bands” of the Virgin Islands. The acronym “VI” stands for “New Roots”, music with African spiritual foundations. The band makes an ancestral rescue to spirituality through Reggae, with lyrics that seek to awaken consciousness.",
+        "artist2": "Skafolia",
+        "artist2Description": "Skafolia fuses traditional Carnival marches with SKA, a Jamaican rhythm created in the 60s, which gave rise to Reggae. Founded in Porto Alegre in 2011, it is the first SKA block in Brazil and is characterized by the irreverence of the vocals, added to the balance of the kitchen and the weight of the brass, forming a mixture of rhythms that only happens in Skafolia.",
+        "more": "Learn more..."
+    },
+    "sport": {
+        "title": "Sport",
+        "description": "Paradise Entretenimento worships, among other adventure sports, slackline, a balance sport that puts people in contact with others and with themselves, also standing out for its direct contact with nature. Meet our Free Slack partner:",
+        "artist1": "Free Slack",
+        "artist1Description": "Paradise Entretenimento has a partnership with Free Slack, an organization dedicated to the practice and dissemination of Slackline, a sport that is based on physical and mental balance, fundamental conditions for a healthy life. In addition to being a practice that adds and develops awareness and values ​​of unity, slackline contributes to a more peaceful society that is more integrated with the environment in which we live. Free Slack holds several events, developing workshops, presentations and social activities, aiming to provide opportunities for experience through sport.",
         "more": "Learn more..."
     },
     "contact": {

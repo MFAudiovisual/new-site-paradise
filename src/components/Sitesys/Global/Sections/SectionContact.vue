@@ -3,7 +3,7 @@
     <div class="container py-24 mx-auto px-4">
       <div class="anim2-scroll">
         <h2
-          class="trigger2-scroll text-center text-4xl text-green-500/60 font-normal font-montserrat tracking-wide drop-shadow-text-sm"
+          class="trigger2-scroll text-center text-5xl text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
         >
           {{ $t('contact.title') }}
         </h2>
@@ -34,7 +34,7 @@
                   ></path>
                 </svg>
               </div>
-              <p class="text-base text-center">PORTO ALEGRE - RS BRASIL</p>
+              <p class="text-sm text-center">PORTO ALEGRE - RS BRASIL</p>
             </div>
             <div class="w-full lg:py-6 mt-6 lg:mt-0">
               <div class="flex justify-center flex-wrap">
@@ -54,7 +54,7 @@
                   ></path>
                 </svg>
               </div>
-              <p class="text-base text-center">
+              <p class="text-sm text-center">
                 CONTATO@PARADISEENTRETENIMENTO.COM.BR
               </p>
             </div>
@@ -76,7 +76,7 @@
                   ></path>
                 </svg>
               </div>
-              <p class="text-base text-center">FONE +55 (51) 99101 2803</p>
+              <p class="text-sm text-center">FONE +55 (51) 99101 2803</p>
             </div>
           </div>
         </div>

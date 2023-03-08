@@ -168,7 +168,7 @@
           </div>
         </div>
         <!-- Contact -->
-        <div class="w-full px-4 sm:w-1/2 lg:w-4/12">
+        <div class="w-full px-4 sm:w-1/2 lg:w-4/12 break-all">
           <div class="mb-10 w-full">
             <h4 class="text-gray-300 mb-4 text-lg font-semibold">
               {{ $t('footer.contact') }}
@@ -224,7 +224,7 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-center mt-12">
+    <div class="flex justify-center mt-12 mx-4">
       <p class="text-gray-400">
         {{ $t('footer.copyright') }}
         <span class="font-bold">@{{ company.company }}</span> 2023
