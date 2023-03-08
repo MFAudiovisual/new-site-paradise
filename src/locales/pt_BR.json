@@ -7,6 +7,12 @@
         "sport": "Esporte",
         "contact": "Contato"
     },
+    "sliderHero": {
+        "title1": "Natureza",
+        "title2": "Cultura",
+        "title3": "Música",
+        "title4": "Esporte"
+    },
     "about": {
         "title": "Sobre",
         "description": "Todo mundo quer se divertir, mas mais do que isso quer fazer disso uma experiência inesquecível. Entretanto, o jovem de hoje quer fazer isso com responsabilidade. Nesse contexto, a Paradise Entretenimento busca realizar eventos sustentáveis em lugares paradisíacos, em completa interação com a natureza, utilizando como parâmetros a música e o esporte.",
