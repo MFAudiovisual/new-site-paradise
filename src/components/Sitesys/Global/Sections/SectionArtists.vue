@@ -46,7 +46,7 @@
           class="text-dark text-lg font-bold font-amatic order-first md:order-first mb-4"
         >
           <RouterLink to="/groovi">
-            <img src="src/assets/images/sitesys/artist/artista-02.jpg" alt="" />
+            <img :src="imgUrlLogo" alt="" />
           </RouterLink>
         </div>
       </div>
@@ -147,6 +147,9 @@
 <script setup>
 import { onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
+
+import imgUrlLogo from '@/assets/images/sitesys/artist/artista-02.jpg'
+
 import imgUrl1 from '@/assets/images/sitesys/gallery/image-01.jpg'
 import imgUrl2 from '@/assets/images/sitesys/gallery/image-02.jpg'
 import imgUrl3 from '@/assets/images/sitesys/gallery/image-03.jpg'
