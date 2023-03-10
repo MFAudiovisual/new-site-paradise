@@ -36,29 +36,28 @@
 
           <p class="mb-16 text-lg font-bold font-amatic">
             {{ $t('artists.artist1Description') }}
-            <a href="#" class="text-blue-500">{{ $t('artists.more') }}</a>
+            <RouterLink to="/groovi" class="text-blue-500">{{
+              $t('artists.more')
+            }}</RouterLink>
           </p>
         </div>
 
         <div
           class="text-dark text-lg font-bold font-amatic order-first md:order-first mb-4"
         >
-          <a href="#">
-            <img
-              src="../../../../assets/images/sitesys/artist/artista-02.jpg"
-              alt=""
-            />
-          </a>
+          <RouterLink to="/groovi">
+            <img src="src/assets/images/sitesys/artist/artista-02.jpg" alt="" />
+          </RouterLink>
         </div>
       </div>
       <div class="mx-auto bg-white rounded-md py-16 mt-16 mb-32">
         <div class="flex justify-center">
-          <a href="#">
+          <RouterLink to="/groovi">
             <img
-              src="../../../../assets/images/sitesys/logo/logo-grooVI-p.jpg"
+              src="src/assets/images/sitesys/logo/logo-grooVI-p.jpg"
               alt=""
             />
-          </a>
+          </RouterLink>
         </div>
         <div
           class="lg:w-full mx-auto flex flex-wrap justify-center items-center"
@@ -102,30 +101,29 @@
 
           <p class="mb-16 text-lg font-bold font-amatic">
             {{ $t('artists.artist2Description') }}
-            <a href="#" class="text-blue-500">{{ $t('artists.more') }}</a>
+            <RouterLink to="/skafolia" class="text-blue-500">{{
+              $t('artists.more')
+            }}</RouterLink>
           </p>
         </div>
 
         <div
           class="text-dark text-lg font-bold font-amatic order-first md:order-first"
         >
-          <a href="#">
-            <img
-              src="../../../../assets/images/sitesys/artist/artista-03.jpg"
-              alt=""
-            />
-          </a>
+          <RouterLink to="/skafolia">
+            <img src="src/assets/images/sitesys/artist/artista-03.jpg" alt="" />
+          </RouterLink>
         </div>
       </div>
       <div class="container mx-auto bg-white rounded-md py-16 mt-16 mb-32">
         <div class="flex justify-center">
-          <a href="#">
+          <RouterLink to="/skafolia">
             <img
-              src="../../../../assets/images/sitesys/logo/logo-skafolia.jpg"
+              src="src/assets/images/sitesys/logo/logo-skafolia.jpg"
               alt=""
               class="mb-16"
             />
-          </a>
+          </RouterLink>
         </div>
         <div
           class="lg:w-full mx-auto flex flex-wrap justify-center items-center"
@@ -147,13 +145,14 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
+import { RouterLink } from 'vue-router'
 import imgUrl1 from '@/assets/images/sitesys/gallery/image-01.jpg'
 import imgUrl2 from '@/assets/images/sitesys/gallery/image-02.jpg'
 import imgUrl3 from '@/assets/images/sitesys/gallery/image-03.jpg'
 import imgUrl4 from '@/assets/images/sitesys/gallery/image-04.jpg'
 import imgUrl5 from '@/assets/images/sitesys/gallery/image-05.jpg'
 import imgUrl6 from '@/assets/images/sitesys/gallery/image-06.jpg'
-import { onMounted } from 'vue'
 import { gsap } from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)

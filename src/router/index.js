@@ -24,9 +24,14 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('@/views/AboutView.vue'),
+      path: '/groovi',
+      name: 'groovi',
+      component: () => import('@/views/GrooviView.vue'),
+    },
+    {
+      path: '/skafolia',
+      name: 'skafolia',
+      component: () => import('@/views/SkafoliaView.vue'),
     },
     {
       path: '/thanks-contact',

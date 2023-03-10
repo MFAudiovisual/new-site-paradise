@@ -22,7 +22,7 @@
                   :active="item.current"
                   @click="handleGoToSection(item)"
                   preserve-scroll
-                  class="font-montserrat text-[16px] tracking-wider drop-shadow-md"
+                  class="font-montserrat text-[16px] tracking-wider drop-shadow"
                 >
                   {{ item.name }}
                 </NavbarLink>

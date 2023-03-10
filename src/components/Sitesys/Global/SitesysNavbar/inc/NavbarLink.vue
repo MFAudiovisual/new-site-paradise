@@ -27,7 +27,7 @@ const props = defineProps({
 const classes = computed(() => {
   return props.active
     ? 'text-white link-underline link-underline-black link-active'
-    : 'text-gray-200 hover:text-white link-underline link-underline link-underline-black'
+    : 'text-gray-100 hover:text-white link-underline link-underline link-underline-black'
 })
 </script>
 
