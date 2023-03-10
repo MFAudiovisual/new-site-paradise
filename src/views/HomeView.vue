@@ -65,7 +65,7 @@ import bgUrl2 from '@/assets/images/sitesys/bg/bg-novidades-02.jpg'
 import bgUrl3 from '@/assets/images/sitesys/bg/bg-04.jpg'
 
 import imgUrl1 from '@/assets/images/sitesys/gallery/image-01.jpg'
-import imgUrl2 from '@/assets/images/sitesys/gallery/image-07.jpg'
+import imgUrl2 from '@/assets/images/sitesys/groovi/foto-2.jpg'
 import imgUrl3 from '@/assets/images/sitesys/gallery/image-08.jpg'
 import imgUrl4 from '@/assets/images/sitesys/gallery/image-09.jpg'
 
