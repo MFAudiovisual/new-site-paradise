@@ -2,7 +2,7 @@
   <SliderHero size="74vh" :sliders="sliderImg" />
   <!-- Release -->
   <div
-    class="bg-[url('/src/assets/images/sitesys/bg/bg-14.jpg')] bg-no-repeat bg-cover"
+    class="bg-[url('/src/assets/images/sitesys/freeslack/fotos-free-slack-12.jpg')] bg-no-repeat bg-cover"
   >
     <div class="backdrop-opacity-50 bg-light/80">
       <div class="container py-24 mx-auto px-4">
@@ -11,11 +11,11 @@
             <h2
               class="mb-16 font-amatic text-6xl font-bold text-green-600/80 tracking-wide drop-shadow-text-sm break-words"
             >
-              {{ $t('skafolia.title') }}
+              {{ $t('freeslack.title') }}
             </h2>
             <div class="text-dark text-lg md:text-xl font-bold font-amatic">
               <p class="mb-16">
-                {{ $t('skafolia.description') }}
+                {{ $t('freeslack.description') }}
               </p>
             </div>
           </div>
@@ -29,7 +29,7 @@
       <h2
         class="text-5xl text-center text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
       >
-        {{ $t('skafolia.videos') }}
+        {{ $t('freeslack.videos') }}
       </h2>
       <div class="lg:w-full mx-auto flex flex-wrap justify-center items-center">
         <div class="w-full lg:py-6 mt-6 lg:mt-0">
@@ -44,7 +44,7 @@
       <h2
         class="text-5xl text-center text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
       >
-        {{ $t('skafolia.photos') }}
+        {{ $t('freeslack.photos') }}
       </h2>
       <div class="lg:w-full mx-auto flex flex-wrap justify-center items-center">
         <div class="w-full lg:py-6 mt-6 lg:mt-0">
@@ -53,38 +53,12 @@
       </div>
     </div>
   </div>
-
-  <!-- Press Kit -->
-  <div class="container pt-16 mx-auto px-4">
-    <div class="mx-auto bg-white rounded-md py-16 mb-32">
-      <h2
-        class="text-xl mb-4 font-bold text-center font-montserrat tracking-wide drop-shadow-text-sm break-words"
-      >
-        PRESS KIT!
-      </h2>
-      <div class="flex justify-center mb-8">
-        <p class="w-full px-32 text-sm text-center font-montserrat">
-          {{ $t('skafolia.pressKitText') }}
-        </p>
-      </div>
-      <div
-        class="lg:w-full mb-8 mx-auto flex flex-wrap justify-center items-center"
-      >
-        <a
-          :href="presskit"
-          download
-          class="bg-green-600 text-center disabled:bg-slate-400 w-32 rounded p-3 text-white transition hover:bg-opacity-90"
-          >PRESS KIT</a
-        >
-      </div>
-    </div>
-  </div>
   <!-- Social Media -->
   <div class="container pt-16 mx-auto px-4">
     <div class="mx-auto bg-white rounded-md py-16 mb-32">
       <div class="flex justify-center mb-8">
         <p class="w-full px-32 text-sm text-center font-montserrat">
-          {{ $t('skafolia.socialMediaText') }}
+          {{ $t('freeslack.socialMediaText') }}
         </p>
       </div>
       <div
@@ -92,7 +66,7 @@
       >
         <div class="flex items-center">
           <a
-            href="https://www.facebook.com/Skafolia"
+            href="https://www.facebook.com/FreeSlackBR"
             target="_blank"
             class="text-gray-300 mr-3 hover:bg-primary hover:border-primary flex h-16 w-16 items-center justify-center hover:text-white"
           >
@@ -219,7 +193,7 @@
             </svg>
           </a>
           <a
-            href="https://www.youtube.com/channel/UCynf8akH6Sf9naZlStEe2Bw"
+            href="https://www.youtube.com/@FreeSlackBrasil/videos"
             target="_blank"
             class="text-gray-300 hover:bg-primary hover:border-primary flex h-16 w-16 items-center justify-center hover:text-white"
           >
@@ -252,26 +226,26 @@ import { useHead } from '@vueuse/head'
 import GalleryImageLightbox from '@/components/Sitesys/Global/Gallery/GalleryLightbox.vue'
 import GalleryVideoLightbox from '@/components/Sitesys/Global/GalleryVideo/GalleryLightbox.vue'
 
-import heroUrl1 from '@/assets/images/sitesys/skafolia/artista-skafolia-final.jpg'
+import heroUrl1 from '@/assets/images/sitesys/freeslack/fotos-free-slack-18.jpg'
 
-import imgUrl1 from '@/assets/images/sitesys/skafolia/fotos-skafolia-01.jpg'
-import imgUrl2 from '@/assets/images/sitesys/skafolia/fotos-skafolia-02.jpg'
-import imgUrl3 from '@/assets/images/sitesys/skafolia/fotos-skafolia-03.jpg'
-import imgUrl4 from '@/assets/images/sitesys/skafolia/fotos-skafolia-04.jpg'
-import imgUrl5 from '@/assets/images/sitesys/skafolia/fotos-skafolia-05.jpg'
-import imgUrl6 from '@/assets/images/sitesys/skafolia/fotos-skafolia-06.jpg'
-import imgUrl7 from '@/assets/images/sitesys/skafolia/fotos-skafolia-07.jpg'
-import imgUrl8 from '@/assets/images/sitesys/skafolia/fotos-skafolia-08.jpg'
-import imgUrl9 from '@/assets/images/sitesys/skafolia/fotos-skafolia-09.jpg'
-import imgUrl10 from '@/assets/images/sitesys/skafolia/fotos-skafolia-10.jpg'
-import imgUrl11 from '@/assets/images/sitesys/skafolia/fotos-skafolia-11.jpg'
-import imgUrl12 from '@/assets/images/sitesys/skafolia/fotos-skafolia-12.jpg'
+import imgUrl1 from '@/assets/images/sitesys/freeslack/fotos-free-slack-01.jpg'
+import imgUrl2 from '@/assets/images/sitesys/freeslack/fotos-free-slack-02.jpg'
+import imgUrl3 from '@/assets/images/sitesys/freeslack/fotos-free-slack-03.jpg'
+import imgUrl4 from '@/assets/images/sitesys/freeslack/fotos-free-slack-04.jpg'
+import imgUrl5 from '@/assets/images/sitesys/freeslack/fotos-free-slack-05.jpg'
+import imgUrl6 from '@/assets/images/sitesys/freeslack/fotos-free-slack-06.jpg'
+import imgUrl7 from '@/assets/images/sitesys/freeslack/fotos-free-slack-07.jpg'
+import imgUrl8 from '@/assets/images/sitesys/freeslack/fotos-free-slack-08.jpg'
+import imgUrl9 from '@/assets/images/sitesys/freeslack/fotos-free-slack-09.jpg'
+import imgUrl10 from '@/assets/images/sitesys/freeslack/fotos-free-slack-10.jpg'
+import imgUrl11 from '@/assets/images/sitesys/freeslack/fotos-free-slack-15.jpg'
+import imgUrl12 from '@/assets/images/sitesys/freeslack/fotos-free-slack-27.jpg'
 import bgUrl3 from '@/assets/images/sitesys/bg/bg-04.jpg'
 
 import presskit from '@/assets/images/sitesys/skafolia/press-kit.pdf'
 
 useHead({
-  title: 'Skafolia - Paradise Entretenimento',
+  title: 'FreeSlack - Paradise Entretenimento',
   meta: [
     {
       name: 'description',
@@ -385,19 +359,19 @@ const GalleryVideos = [
     id: '1',
     title: '',
     description: '',
-    videoId: 'kCNuJj9hXrg',
+    videoId: 'IWUPkbu18H8',
   },
   {
     id: '2',
     title: '',
     description: '',
-    videoId: 'd88UOf4Srkk',
+    videoId: 'swD-dyFLPm8',
   },
   {
     id: '3',
     title: '',
     description: '',
-    videoId: 'kCNuJj9hXrg',
+    videoId: '3Yv5NCEPeOQ',
   },
 ]
 </script>

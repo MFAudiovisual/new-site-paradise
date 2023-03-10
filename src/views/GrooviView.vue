@@ -108,8 +108,7 @@
       </div>
     </div>
   </div>
-
-  <!-- Press Kit -->
+  <!-- Social Media -->
   <div class="container pt-16 mx-auto px-4">
     <div class="mx-auto bg-white rounded-md py-16 mb-32">
       <div class="flex justify-center mb-8">
@@ -120,7 +119,6 @@
       <div
         class="lg:w-full mb-8 mx-auto flex flex-wrap justify-center items-center"
       >
-        <!-- Social Media -->
         <div class="flex items-center">
           <a
             href="https://www.facebook.com/groovioficial"

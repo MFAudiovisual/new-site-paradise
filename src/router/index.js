@@ -34,6 +34,11 @@ const router = createRouter({
       component: () => import('@/views/SkafoliaView.vue'),
     },
     {
+      path: '/freeslack',
+      name: 'freeslack',
+      component: () => import('@/views/FreeslackView.vue'),
+    },
+    {
       path: '/thanks-contact',
       name: 'thanks-contact',
       component: () => import('@/views/ThanksContactView.vue'),
