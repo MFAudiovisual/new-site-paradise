@@ -50,7 +50,9 @@
           </RouterLink>
         </div>
       </div>
-      <div class="mx-auto bg-white rounded-md py-16 mt-16 mb-32">
+      <div
+        class="mx-auto bg-white dark:bg-extra-dark/80 rounded-md py-16 mt-16 mb-32"
+      >
         <div class="flex justify-center">
           <RouterLink to="/groovi">
             <img :src="logoGroovi" alt="" />
@@ -59,7 +61,7 @@
         <div
           class="lg:w-full mx-auto flex flex-wrap justify-center items-center"
         >
-          <div class="w-full py-16">
+          <div class="w-full py-16 px-16">
             <iframe
               class="mb-4"
               style="border-radius: 12px"
@@ -141,7 +143,7 @@
 import { onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
 
-import logoGroovi from '@/assets/images/sitesys/logo/logo-grooVI-p.jpg'
+import logoGroovi from '@/assets/images/sitesys/logo/logo-groovi.png'
 import logoSka from '@/assets/images/sitesys/logo/logo-skafolia.jpg'
 import imgUrlLogo from '@/assets/images/sitesys/artist/artista-02.jpg'
 import imgUrlLogo1 from '@/assets/images/sitesys/artist/artista-03.jpg'
