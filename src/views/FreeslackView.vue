@@ -55,7 +55,7 @@
   </div>
   <!-- Social Media -->
   <div class="container pt-16 mx-auto px-4">
-    <div class="mx-auto bg-white rounded-md py-16 mb-32">
+    <div class="mx-auto bg-white dark:bg-extra-dark/80 rounded-md py-16 mb-32">
       <div class="flex justify-center mb-8">
         <p class="w-full px-32 text-sm text-center font-montserrat">
           {{ $t('freeslack.socialMediaText') }}
