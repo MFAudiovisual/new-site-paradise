@@ -11,20 +11,11 @@
             <h2
               class="mb-16 font-amatic text-6xl font-bold text-green-600/80 tracking-wide drop-shadow-text-sm break-words"
             >
-              GrooVI
+              {{ $t('groovi.title') }}
             </h2>
             <div class="text-dark text-lg md:text-xl font-bold font-amatic">
               <p class="mb-16">
-                A GrooVI surgiu em Porto Alegre, inspirada nas “backing bands”
-                das Ilhas Virgens. A sigla “VI” representa o “New Roots”, música
-                com fundamentos espirituais africanos. A banda faz um resgate
-                ancestral à espiritualidade através do Reggae, com letras que
-                buscam despertar a consciência, levando a uma reflexão ao modo
-                de vida ocidental onde predomina o materialismo e uma relação
-                desrespeitosa com a natureza, mas também traz mensagens
-                carregadas de vibrações positivas e mensagens de esperança,
-                utilizando o mantra da música Reggae como instrumento de
-                meditação e transformação.
+                {{ $t('groovi.description') }}
               </p>
             </div>
           </div>
@@ -37,7 +28,7 @@
     <h2
       class="text-5xl text-center text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
     >
-      Músicas
+      {{ $t('groovi.songs') }}
     </h2>
     <div class="mx-auto bg-white rounded-md py-16 mt-16 mb-32">
       <div class="flex justify-center">
@@ -67,7 +58,7 @@
       <h2
         class="text-5xl text-center text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
       >
-        Vídeos
+        {{ $t('groovi.videos') }}
       </h2>
       <div class="lg:w-full mx-auto flex flex-wrap justify-center items-center">
         <div class="w-full lg:py-6 mt-6 lg:mt-0">
@@ -82,7 +73,7 @@
       <h2
         class="text-5xl text-center text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
       >
-        Fotos
+        {{ $t('groovi.photos') }}
       </h2>
       <div class="lg:w-full mx-auto flex flex-wrap justify-center items-center">
         <div class="w-full lg:py-6 mt-6 lg:mt-0">
@@ -102,9 +93,7 @@
       </h2>
       <div class="flex justify-center mb-8">
         <p class="w-full px-32 text-sm text-center font-montserrat">
-          Baixe o press kit da GROOVI contendo arquivos para realizar materiais
-          de divulgação de shows e eventos! CONTÉM: Rider Técnico, Mapa de
-          Palco, Fotos em alta resolução, release e a logo da banda.
+          {{ $t('groovi.pressKitText') }}
         </p>
       </div>
       <div
@@ -125,7 +114,7 @@
     <div class="mx-auto bg-white rounded-md py-16 mb-32">
       <div class="flex justify-center mb-8">
         <p class="w-full px-32 text-sm text-center font-montserrat">
-          CONHEÇA MAIS DA GROOVI VISITANDO SUAS REDES SOCIAIS:
+          {{ $t('groovi.socialMediaText') }}
         </p>
       </div>
       <div

@@ -62,5 +62,25 @@
         "contact": "Contato",
         "address": "Endereço",
         "copyright": "Todos os direitos reservados a "
+    },
+    "groovi": {
+        "title": "GrooVI",
+        "description": "A GrooVI surgiu em Porto Alegre, inspirada nas “backing bands” das Ilhas Virgens. A sigla “VI” representa o “New Roots”, música com fundamentos espirituais africanos. A banda faz um resgate ancestral à espiritualidade através do Reggae, com letras que buscam despertar a consciência, levando a uma reflexão ao modo de vida ocidental onde predomina o materialismo e uma relação desrespeitosa com a natureza, mas também traz mensagens carregadas de vibrações positivas e mensagens de esperança, utilizando o mantra da música Reggae como instrumento de meditação e transformação.",
+        "songs": "Músicas",
+        "photos": "Fotos",
+        "videos": "Vídeos",
+        "images": "Imagens",
+        "pressKitText": "Baixe o press kit da GROOVI contendo arquivos para realizar materiais de divulgação de shows e eventos! CONTÉM: Rider Técnico, Mapa de Palco, Fotos em alta resolução, release e a logo da banda.",
+        "socialMediaText": "CONHEÇA MAIS DA GROOVI VISITANDO SUAS REDES SOCIAIS:"
+    },
+    "skafolia": {
+        "title": "Skafolia",
+        "description": "O Skafolia faz a fusão de marchinhas tradicionais de Carnaval com o SKA, ritmo jamaicano criado na década de 60, que deu origem ao Reggae. Surgido em Porto Alegre em 2011, é o primeiro bloco SKA do Brasil e se caracteriza pela irreverência dos vocais, somado ao balanço da cozinha e ao peso dos metais, formando uma mistura de ritmos que só acontece no Skafolia. O bloco é referência em eventos de Carnaval, reflexo maior da cultura brasileira mundo à fora, e também é uma excelente opção de entretenimento.",
+        "songs": "Músicas",
+        "photos": "Fotos",
+        "videos": "Vídeos",
+        "images": "Imagens",
+        "pressKitText": "Baixe o press kit da SKAFOLIA contendo arquivos para realizar materiais de divulgação de shows e eventos! CONTÉM: Rider Técnico, Mapa de Palco, Fotos em alta resolução, release e a logo da banda.",
+        "socialMediaText": "CONHEÇA MAIS DA SKAFOLIA VISITANDO SUAS REDES SOCIAIS:"
     }
 }

@@ -271,15 +271,15 @@ const company = defineProps({
   },
   facebook: {
     type: String,
-    default: 'https://www.facebook.com/',
+    default: 'https://www.facebook.com/ParadiseEntretenimentoBR',
   },
   instagram: {
     type: String,
-    default: 'https://www.instagram.com/',
+    default: 'https://www.instagram.com/ParadiseEntretenimentoBR/',
   },
   youtube: {
     type: String,
-    default: 'https://www.youtube.com/',
+    default: 'https://www.youtube.com/channel/UC4_NtTNh31_xdC45efpHluA',
   },
 })
 </script>

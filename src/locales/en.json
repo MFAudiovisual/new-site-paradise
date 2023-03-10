@@ -62,5 +62,25 @@
         "contact": "Contact",
         "address": "Address",
         "copyright": "All rights reserved by "
+    },
+    "groovi": {
+        "title": "GrooVI",
+        "description": "GrooVI emerged in Porto Alegre, inspired by the “backing bands” of the Virgin Islands. The acronym “VI” stands for “New Roots”, music with African spiritual foundations. The band makes an ancestral rescue to spirituality through Reggae, with lyrics that seek to awaken consciousness, leading to a reflection on the Western way of life where materialism and a disrespectful relationship with nature predominate, but also bring messages loaded with positive vibrations and messages of hope, using the mantra of Reggae music as an instrument of meditation and transformation.",
+        "songs": "Songs",
+        "photos": "Photos",
+        "videos": "Videos",
+        "images": "Images",
+        "pressKitText": "Download the GROOVI press kit containing files to create promotional materials for shows and events! CONTAINS: Technical Rider, Stage Map, High resolution photos, release and the band's logo.",
+        "socialMediaText": "FIND OUT MORE ABOUT GROOVI VISITING THEIR SOCIAL NETWORKS:"
+    },
+    "skafolia": {
+        "title": "Skafolia",
+        "description": "Skafolia fuses traditional Carnival marches with SKA, a Jamaican rhythm created in the 60s, which gave rise to Reggae. Founded in Porto Alegre in 2011, it is the first SKA block in Brazil and is characterized by the irreverence of the vocals, added to the balance of the kitchen and the weight of the brass, forming a mixture of rhythms that only happens in Skafolia. The block is a reference in Carnival events, the greatest reflection of Brazilian culture worldwide, and is also an excellent entertainment option.",
+        "songs": "Songs",
+        "photos": "Photos",
+        "videos": "Videos",
+        "images": "Images",
+        "pressKitText": "Download the SKAFOLIA press kit containing files to create promotional materials for shows and events! CONTAINS: Technical Rider, Stage Map, High resolution photos, release and the band's logo.",
+        "socialMediaText": "FIND OUT MORE ABOUT SKAFOLIA VISITING THEIR SOCIAL NETWORKS:"
     }
 }
