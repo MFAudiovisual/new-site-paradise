@@ -82,5 +82,15 @@
         "images": "Images",
         "pressKitText": "Download the SKAFOLIA press kit containing files to create promotional materials for shows and events! CONTAINS: Technical Rider, Stage Map, High resolution photos, release and the band's logo.",
         "socialMediaText": "FIND OUT MORE ABOUT SKAFOLIA VISITING THEIR SOCIAL NETWORKS:"
+    },
+    "freeslack": {
+        "title": "Freeslack",
+        "description": "Paradise Entretenimento has a partnership with Free Slack, an organization dedicated to the practice and dissemination of Slackline, a sport that is based on physical and mental balance, fundamental conditions for a healthy life. In addition to being a practice that adds and develops awareness and values ​​of unity, slackline contributes to a more peaceful society that is more integrated with the environment in which we live. Free Slack holds several events, developing workshops, presentations and social activities, aiming to provide opportunities for experience through sport.",
+        "songs": "Songs",
+        "photos": "Photos",
+        "videos": "Videos",
+        "images": "Images",
+        "pressKitText": "Download the FREESLACK press kit containing files to create promotional materials for shows and events! CONTAINS: Technical Rider, Stage Map, High resolution photos, release and the band's logo.",
+        "socialMediaText": "FIND OUT MORE ABOUT FREESLACK VISITING THEIR SOCIAL NETWORKS:"
     }
 }

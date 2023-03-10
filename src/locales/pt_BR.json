@@ -82,5 +82,15 @@
         "images": "Imagens",
         "pressKitText": "Baixe o press kit da SKAFOLIA contendo arquivos para realizar materiais de divulgação de shows e eventos! CONTÉM: Rider Técnico, Mapa de Palco, Fotos em alta resolução, release e a logo da banda.",
         "socialMediaText": "CONHEÇA MAIS DA SKAFOLIA VISITANDO SUAS REDES SOCIAIS:"
+    },
+    "freeslack": {
+        "title": "Freeslack",
+        "description": "A Paradise Entretenimento tem uma parceria com a Free Slack, uma organização voltada para a prática e divulgação do Slackline, um esporte que tem como base o equilíbrio físico e mental, condições fundamentais para uma vida saudável. Além de ser uma prática que agrega e desenvolve a consciência e valores de união, o slackline contribui para uma sociedade mais pacífica e integrada com o meio em que vivemos. A Free Slack realiza diversos eventos desenvolvendo oficinas, apresentações e atividades sociais, objetivando oportunizar a vivência e experiência através do esporte.",
+        "songs": "Músicas",
+        "photos": "Fotos",
+        "videos": "Vídeos",
+        "images": "Imagens",
+        "pressKitText": "Baixe o press kit da FREESLACK contendo arquivos para realizar materiais de divulgação de shows e eventos! CONTÉM: Rider Técnico, Mapa de Palco, Fotos em alta resolução, release e a logo da banda.",
+        "socialMediaText": "CONHEÇA MAIS DA FREESLACK VISITANDO SUAS REDES SOCIAIS:"
     }
 }

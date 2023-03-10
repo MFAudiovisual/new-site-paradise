@@ -38,30 +38,25 @@
 
           <p class="mb-16 text-lg font-bold font-amatic">
             {{ $t('sport.artist1Description') }}
-            <a href="#" class="text-blue-500">{{ $t('sport.more') }}</a>
+            <RouterLink to="/freeslack" class="text-blue-500">{{
+              $t('sport.more')
+            }}</RouterLink>
           </p>
         </div>
 
         <div
           class="text-dark text-lg font-bold font-amatic order-first md:order-first"
         >
-          <a href="#">
-            <img
-              src="../../../../assets/images/sitesys/artist/artista-04.jpg"
-              alt=""
-            />
-          </a>
+          <RouterLink to="/freeslack">
+            <img :src="imgUrlLogo" alt="" />
+          </RouterLink>
         </div>
       </div>
       <div class="container mx-auto bg-white rounded-md py-16 mt-16 mb-32">
         <div class="flex justify-center">
-          <a href="#">
-            <img
-              src="../../../../assets/images/sitesys/logo/logo-free-slack.jpg"
-              alt=""
-              class="mb-16"
-            />
-          </a>
+          <RouterLink to="/freeslack">
+            <img :src="imgUrlLogo1" alt="" class="mb-16" />
+          </RouterLink>
         </div>
         <div
           class="lg:w-full mx-auto flex flex-wrap justify-center items-center"
@@ -84,8 +79,12 @@
 
 <script setup>
 import { onMounted } from 'vue'
+import { RouterLink } from 'vue-router'
 import { gsap } from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
+import imgUrlLogo from '@/assets/images/sitesys/artist/artista-04.jpg'
+import imgUrlLogo1 from '@/assets/images/sitesys/logo/logo-free-slack.jpg'
+
 gsap.registerPlugin(ScrollTrigger)
 
 onMounted(() => {
