@@ -11,19 +11,11 @@
             <h2
               class="mb-16 font-amatic text-6xl font-bold text-green-600/80 tracking-wide drop-shadow-text-sm break-words"
             >
-              Skafolia
+              {{ $t('skafolia.title') }}
             </h2>
             <div class="text-dark text-lg md:text-xl font-bold font-amatic">
               <p class="mb-16">
-                O Skafolia faz a fusão de marchinhas tradicionais de Carnaval
-                com o SKA, ritmo jamaicano criado na década de 60, que deu
-                origem ao Reggae. Surgido em Porto Alegre em 2011, é o primeiro
-                bloco SKA do Brasil e se caracteriza pela irreverência dos
-                vocais, somado ao balanço da cozinha e ao peso dos metais,
-                formando uma mistura de ritmos que só acontece no Skafolia. O
-                bloco é referência em eventos de Carnaval, reflexo maior da
-                cultura brasileira mundo à fora, e também é uma excelente opção
-                de entretenimento.
+                {{ $t('skafolia.description') }}
               </p>
             </div>
           </div>
@@ -37,7 +29,7 @@
       <h2
         class="text-5xl text-center text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
       >
-        Vídeos
+        {{ $t('skafolia.videos') }}
       </h2>
       <div class="lg:w-full mx-auto flex flex-wrap justify-center items-center">
         <div class="w-full lg:py-6 mt-6 lg:mt-0">
@@ -52,7 +44,7 @@
       <h2
         class="text-5xl text-center text-green-600/80 font-normal font-montserrat tracking-wide drop-shadow-text-sm break-words"
       >
-        Fotos
+        {{ $t('skafolia.photos') }}
       </h2>
       <div class="lg:w-full mx-auto flex flex-wrap justify-center items-center">
         <div class="w-full lg:py-6 mt-6 lg:mt-0">
@@ -72,9 +64,7 @@
       </h2>
       <div class="flex justify-center mb-8">
         <p class="w-full px-32 text-sm text-center font-montserrat">
-          Baixe o press kit da SKAFOLIA contendo arquivos para realizar
-          materiais de divulgação de shows e eventos! CONTÉM: Rider Técnico,
-          Mapa de Palco, Fotos em alta resolução, release e a logo da banda.
+          {{ $t('skafolia.pressKitText') }}
         </p>
       </div>
       <div
@@ -95,7 +85,7 @@
     <div class="mx-auto bg-white rounded-md py-16 mb-32">
       <div class="flex justify-center mb-8">
         <p class="w-full px-32 text-sm text-center font-montserrat">
-          CONHEÇA MAIS DA SKAFOLIA VISITANDO SUAS REDES SOCIAIS:
+          {{ $t('skafolia.socialMediaText') }}
         </p>
       </div>
       <div
@@ -283,7 +273,7 @@ import bgUrl3 from '@/assets/images/sitesys/bg/bg-04.jpg'
 import presskit from '@/assets/images/sitesys/skafolia/press-kit.pdf'
 
 useHead({
-  title: 'GrooVI - Paradise Entretenimento',
+  title: 'Skafolia - Paradise Entretenimento',
   meta: [
     {
       name: 'description',
@@ -293,7 +283,7 @@ useHead({
     /* Social */
     {
       property: 'og:title',
-      content: 'GrooVI - Paradise Entretenimento',
+      content: 'Skafolia - Paradise Entretenimento',
     },
     {
       property: 'og:description',
@@ -397,37 +387,19 @@ const GalleryVideos = [
     id: '1',
     title: '',
     description: '',
-    videoId: 'qlmwIVmsn3Y',
+    videoId: 'kCNuJj9hXrg',
   },
   {
     id: '2',
     title: '',
     description: '',
-    videoId: 'n__tuqaQL-k',
+    videoId: 'd88UOf4Srkk',
   },
   {
     id: '3',
     title: '',
     description: '',
-    videoId: 'KKerDxdDqB0',
-  },
-  {
-    id: '4',
-    title: '',
-    description: '',
-    videoId: '1U1rL_XX1uE',
-  },
-  {
-    id: '5',
-    title: '',
-    description: '',
-    videoId: 'NaLeTjwVHeQ',
-  },
-  {
-    id: '6',
-    title: '',
-    description: '',
-    videoId: 'rSv-hCgvVmg',
+    videoId: 'kCNuJj9hXrg',
   },
 ]
 </script>
