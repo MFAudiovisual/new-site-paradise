@@ -42,7 +42,7 @@
     <div class="mx-auto bg-white rounded-md py-16 mt-16 mb-32">
       <div class="flex justify-center">
         <a href="#">
-          <img src="src/assets/images/sitesys/logo/logo-grooVI-p.jpg" alt="" />
+          <img :src="logo" alt="" />
         </a>
       </div>
       <div class="lg:w-full mx-auto flex flex-wrap justify-center items-center">
@@ -294,6 +294,7 @@ import { useHead } from '@vueuse/head'
 import GalleryImageLightbox from '@/components/Sitesys/Global/Gallery/GalleryLightbox.vue'
 import GalleryVideoLightbox from '@/components/Sitesys/Global/GalleryVideo/GalleryLightbox.vue'
 
+import logo from '@/assets/images/sitesys/logo/logo-grooVI-p.jpg'
 import heroUrl1 from '@/assets/images/sitesys/groovi/groovi-destaque.jpg'
 
 import imgUrl1 from '@/assets/images/sitesys/groovi/fotos-groovi-01.jpg'
