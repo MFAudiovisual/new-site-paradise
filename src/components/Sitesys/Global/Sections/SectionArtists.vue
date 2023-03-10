@@ -53,10 +53,7 @@
       <div class="mx-auto bg-white rounded-md py-16 mt-16 mb-32">
         <div class="flex justify-center">
           <RouterLink to="/groovi">
-            <img
-              src="src/assets/images/sitesys/logo/logo-grooVI-p.jpg"
-              alt=""
-            />
+            <img :src="logoGroovi" alt="" />
           </RouterLink>
         </div>
         <div
@@ -111,18 +108,14 @@
           class="text-dark text-lg font-bold font-amatic order-first md:order-first"
         >
           <RouterLink to="/skafolia">
-            <img src="src/assets/images/sitesys/artist/artista-03.jpg" alt="" />
+            <img :src="imgUrlLogo1" alt="" />
           </RouterLink>
         </div>
       </div>
       <div class="container mx-auto bg-white rounded-md py-16 mt-16 mb-32">
         <div class="flex justify-center">
           <RouterLink to="/skafolia">
-            <img
-              src="src/assets/images/sitesys/logo/logo-skafolia.jpg"
-              alt=""
-              class="mb-16"
-            />
+            <img :src="logoSka" alt="" class="mb-16" />
           </RouterLink>
         </div>
         <div
@@ -148,7 +141,10 @@
 import { onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
 
+import logoGroovi from '@/assets/images/sitesys/logo/logo-grooVI-p.jpg'
+import logoSka from '@/assets/images/sitesys/logo/logo-skafolia.jpg'
 import imgUrlLogo from '@/assets/images/sitesys/artist/artista-02.jpg'
+import imgUrlLogo1 from '@/assets/images/sitesys/artist/artista-03.jpg'
 
 import imgUrl1 from '@/assets/images/sitesys/gallery/image-01.jpg'
 import imgUrl2 from '@/assets/images/sitesys/gallery/image-02.jpg'
