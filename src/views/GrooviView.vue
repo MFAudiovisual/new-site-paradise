@@ -282,7 +282,7 @@ import GalleryImageLightbox from '@/components/Sitesys/Global/Gallery/GalleryLig
 import GalleryVideoLightbox from '@/components/Sitesys/Global/GalleryVideo/GalleryLightbox.vue'
 
 import logo from '@/assets/images/sitesys/logo/logo-groovi.png'
-import heroUrl1 from '@/assets/images/sitesys/groovi/groovi-destaque.jpg'
+import heroUrl1 from '@/assets/images/sitesys/groovi/foto-1.jpg'
 
 import imgUrl1 from '@/assets/images/sitesys/groovi/fotos-groovi-01.jpg'
 import imgUrl2 from '@/assets/images/sitesys/groovi/fotos-groovi-02.jpg'

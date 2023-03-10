@@ -145,7 +145,7 @@ import { RouterLink } from 'vue-router'
 
 import logoGroovi from '@/assets/images/sitesys/logo/logo-groovi.png'
 import logoSka from '@/assets/images/sitesys/logo/logo-skafolia.jpg'
-import imgUrlLogo from '@/assets/images/sitesys/artist/artista-02.jpg'
+import imgUrlLogo from '@/assets/images/sitesys/groovi/foto-3.jpg'
 import imgUrlLogo1 from '@/assets/images/sitesys/artist/artista-03.jpg'
 
 import imgUrl1 from '@/assets/images/sitesys/gallery/image-01.jpg'
