@@ -60,7 +60,7 @@ import ParallaxMulti from '@/components/Sitesys/Global/Parallax/ParallaxMulti.vu
 import SliderImage from '@/components/Sitesys/Global/Slider/SliderImage.vue'
 import { useHead } from '@vueuse/head'
 
-import bgUrl1 from '@/assets/images/sitesys/bg/bg-05.jpg'
+import bgUrl1 from '@/assets/images/sitesys/bg/bg-18.jpg'
 import bgUrl2 from '@/assets/images/sitesys/bg/bg-novidades-02.jpg'
 import bgUrl3 from '@/assets/images/sitesys/bg/bg-04.jpg'
 
