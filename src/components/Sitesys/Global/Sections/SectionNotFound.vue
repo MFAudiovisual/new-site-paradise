@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import imgUrl from '@/assets/images/sitesys/logo/logo-header-dark.png'
+import imgUrl from '@/assets/images/sitesys/logo/novologotipoparadise.png'
 
 const navbarLogo = imgUrl
 </script>
