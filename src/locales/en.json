@@ -5,6 +5,7 @@
         "about": "About",
         "artists": "Artists",
         "sport": "Sport",
+        "events": "Events",
         "contact": "Contact"
     },
     "sliderHero": {
@@ -40,7 +41,14 @@
     "sport": {
         "title": "Sport",
         "description": "Paradise Entretenimento worships, among other adventure sports, slackline, a balance sport that puts people in contact with others and with themselves, also standing out for its direct contact with nature. Meet our Free Slack partner:",
-        "artist1": "Free Slack",
+        "artist1": "Freeslack",
+        "artist1Description": "Paradise Entretenimento has a partnership with Free Slack, an organization dedicated to the practice and dissemination of Slackline, a sport that is based on physical and mental balance, fundamental conditions for a healthy life. In addition to being a practice that adds and develops awareness and values ​​of unity, slackline contributes to a more peaceful society that is more integrated with the environment in which we live. Free Slack holds several events, developing workshops, presentations and social activities, aiming to provide opportunities for experience through sport.",
+        "more": "Learn more..."
+    },
+    "events": {
+        "title": "Events",
+        "description": "Paradise Entretenimento holds events that are sustainable and in balance with nature. This was the Paradise Experience, which took place at Clube Adventure in Porto Alegre, RS on December 10, 2017. The event featured diverse cultural activities including water sports such as Stand up Paddle and Windsurfing, as well as Slackline, Acroyoga and Fabric Workshops . In Gastronomy we offer traditional Food Trucks, Natural Food and Craft Beer. All this surrounded by lots of nature, good music and great vibes provided by special musical attractions that complemented this experience. We had special shows on a leisure day to enjoy with friends and enjoy the best of summer. Welcome to Paradise!",
+        "artist1": "Paradise Experience",
         "artist1Description": "Paradise Entretenimento has a partnership with Free Slack, an organization dedicated to the practice and dissemination of Slackline, a sport that is based on physical and mental balance, fundamental conditions for a healthy life. In addition to being a practice that adds and develops awareness and values ​​of unity, slackline contributes to a more peaceful society that is more integrated with the environment in which we live. Free Slack holds several events, developing workshops, presentations and social activities, aiming to provide opportunities for experience through sport.",
         "more": "Learn more..."
     },
@@ -92,5 +100,15 @@
         "images": "Images",
         "pressKitText": "Download the FREESLACK press kit containing files to create promotional materials for shows and events! CONTAINS: Technical Rider, Stage Map, High resolution photos, release and the band's logo.",
         "socialMediaText": "FIND OUT MORE ABOUT FREESLACK VISITING THEIR SOCIAL NETWORKS:"
+    },
+    "eventsPage": {
+        "title": "Events",
+        "description": "Paradise Entretenimento holds events that are sustainable and in balance with nature. This was the Paradise Experience, which took place at Clube Adventure in Porto Alegre, RS on December 10, 2017. The event featured diverse cultural activities including water sports such as Stand up Paddle and Windsurfing, as well as Slackline, Acroyoga and Fabric Workshops . In Gastronomy we offer traditional Food Trucks, Natural Food and Craft Beer. All this surrounded by lots of nature, good music and great vibes provided by special musical attractions that complemented this experience. We had special shows on a leisure day to enjoy with friends and enjoy the best of summer. Welcome to Paradise!",
+        "songs": "Songs",
+        "photos": "Photos",
+        "videos": "Videos",
+        "images": "Images",
+        "pressKitText": "Download the PARADISE EXPERIENCE press kit containing files to create promotional materials for shows and events! CONTAINS: Technical Rider, Stage Map, High resolution photos, release and the band's logo.",
+        "socialMediaText": "FIND OUT MORE ABOUT PARADISE EXPERIENCE VISITING THEIR SOCIAL NETWORKS:"
     }
 }

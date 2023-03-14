@@ -39,6 +39,11 @@ const router = createRouter({
       component: () => import('@/views/FreeslackView.vue'),
     },
     {
+      path: '/events',
+      name: 'events',
+      component: () => import('@/views/EventsView.vue'),
+    },
+    {
       path: '/thanks-contact',
       name: 'thanks-contact',
       component: () => import('@/views/ThanksContactView.vue'),

@@ -20,6 +20,7 @@
       :sliders="sliderImg"
       background-color="#0000001a"
     />
+    <SectionSport />
     <BannerImage :image="bgUrl2">
       <div
         class="text-dark text-lg font-bold font-amatic order-first md:order-last"
@@ -32,7 +33,7 @@
       </div>
     </BannerImage>
 
-    <SectionSport />
+    <SectionEvents />
     <BannerImage :image="bgUrl3">
       <div
         class="text-dark text-lg font-bold font-amatic order-first md:order-last"
@@ -54,8 +55,8 @@ import BannerImage from '@/components/Sitesys/Global/Banner/BannerImage.vue'
 import SectionAbout from '@/components/Sitesys/Global/Sections/SectionAbout.vue'
 import SectionArtists from '@/components/Sitesys/Global/Sections/SectionArtists.vue'
 import SectionSport from '@/components/Sitesys/Global/Sections/SectionSport.vue'
+import SectionEvents from '@/components/Sitesys/Global/Sections/SectionEvents.vue'
 import SectionContact from '@/components/Sitesys/Global/Sections/SectionContact.vue'
-import ParallaxStatic from '@/components/Sitesys/Global/Parallax/ParallaxStatic.vue'
 import ParallaxMulti from '@/components/Sitesys/Global/Parallax/ParallaxMulti.vue'
 import SliderImage from '@/components/Sitesys/Global/Slider/SliderImage.vue'
 import { useHead } from '@vueuse/head'

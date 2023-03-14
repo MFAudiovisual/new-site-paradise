@@ -5,6 +5,7 @@
         "about": "Sobre",
         "artists": "Artistas",
         "sport": "Esporte",
+        "events": "Eventos",
         "contact": "Contato"
     },
     "sliderHero": {
@@ -40,7 +41,7 @@
     "sport": {
         "title": "Esporte",
         "description": "A Paradise Entretenimento cultua, entre outros esportes de aventura, o slackline, um esporte de equilíbrio, que coloca as pessoas em contato com outras e consigo mesmas, destacando-se também pelo contato direto com a natureza. Conheça nossa parceira Free Slack:",
-        "artist1": "Free Slack",
+        "artist1": "Freeslack",
         "artist1Description": "A Paradise Entretenimento tem uma parceria com a Free Slack, uma organização voltada para a prática e divulgação do Slackline, um esporte que tem como base o equilíbrio físico e mental, condições fundamentais para uma vida saudável. Além de ser uma prática que agrega e desenvolve a consciência e valores de união, o slackline contribui para uma sociedade mais pacífica e integrada com o meio em que vivemos. A Free Slack realiza diversos eventos desenvolvendo oficinas, apresentações e atividades sociais, objetivando oportunizar a vivência e experiência através do esporte.",
         "more": "Saiba mais..."
     },
@@ -92,5 +93,15 @@
         "images": "Imagens",
         "pressKitText": "Baixe o press kit da FREESLACK contendo arquivos para realizar materiais de divulgação de shows e eventos! CONTÉM: Rider Técnico, Mapa de Palco, Fotos em alta resolução, release e a logo da banda.",
         "socialMediaText": "CONHEÇA MAIS DA FREESLACK VISITANDO SUAS REDES SOCIAIS:"
+    },
+    "eventsPage": {
+        "title": "Eventos",
+        "description": "A Paradise Entretenimento realiza eventos sustentáveis e em equilíbrio com a natureza. Assim foi o Paradise Experience, que aconteceu no Clube Adventure em Porto Alegre, RS no dia 10 de Dezembro de 2017. O evento contou com atividades culturais diversas entre esportes aquáticos como Stand up Paddle e Windsurf, além de Oficinas de Slackline, Acroyoga e Tecido. Na Gastronomia oferecemos Food Trucks tradicionais, Alimentação Natural e Cerveja Artesanal. Tudo isso cercado de muita natureza, música boa e ótimas vibrações proporcionadas por atrações musicais especiais que complementaram essa experiência. Tivemos shows especiais em um dia de lazer pra curtir com os amigos e apreciar o melhor do verão. Welcome to Paradise!",
+        "songs": "Músicas",
+        "photos": "Fotos",
+        "videos": "Vídeos",
+        "images": "Imagens",
+        "pressKitText": "Baixe o press kit do PARADISE EXPERIENCE contendo arquivos para realizar materiais de divulgação de shows e eventos! CONTÉM: Rider Técnico, Mapa de Palco, Fotos em alta resolução, release e a logo da banda.",
+        "socialMediaText": "CONHEÇA MAIS DO PARADISE EXPERIENCE VISITANDO SUAS REDES SOCIAIS:"
     }
 }
