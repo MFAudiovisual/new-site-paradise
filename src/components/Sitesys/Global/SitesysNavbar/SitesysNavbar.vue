@@ -165,6 +165,11 @@ const navigation = ref([
     current: false,
   },
   {
+    name: t('navbar.events'),
+    href: { path: '/', hash: '#events' },
+    current: false,
+  },
+  {
     name: t('navbar.contact'),
     href: { path: '/', hash: '#contact' },
     current: false,
